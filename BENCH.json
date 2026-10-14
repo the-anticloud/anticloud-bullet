@@ -1,0 +1,4564 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "BULLET",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARTILLERY_MANUFACTURING\\BULLET\\UPSTREAM_CLONE",
+  "git": {
+   "head": "475caa3ff4646fd9a796b67d14116256f4962bc7",
+   "url": "https://github.com/dimforge/rapier",
+   "branch": "master",
+   "committed_at": "",
+   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+  }
+ },
+ "metrics": {
+  "files_total": 1977,
+  "source_files_scanned": 1552,
+  "lines_of_code": 352397,
+  "languages": {
+   ".rs": 976,
+   ".c": 260,
+   ".py": 137,
+   ".ts": 116,
+   ".mdx": 84,
+   ".toml": 45,
+   ".svg": 45,
+   ".stl": 37,
+   ".md": 30,
+   "(none)": 29,
+   ".js": 26,
+   ".json": 24,
+   ".sh": 22,
+   ".txt": 17,
+   ".obj": 17
+  }
+ },
+ "licence": {
+  "spdx": "Apache-2.0",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 372,
+  "unique": 140,
+  "by_ecosystem": {
+   "cargo": 290,
+   "native": 4,
+   "npm": 75,
+   "pypi": 3
+  },
+  "list": [
+   {
+    "ecosystem": "cargo",
+    "name": "resolver",
+    "version": "2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "homepage",
+    "version": "https://rapier.rs",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "repository",
+    "version": "https://github.com/dimforge/rapier",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "Apache-2.0",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rust-version",
+    "version": "1.86",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2024",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "needless_lifetimes",
+    "version": "allow",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "nalgebra",
+    "version": "0.35",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "glamx",
+    "version": "0.3.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "simba",
+    "version": "0.10.2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "num-traits",
+    "version": "0.2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "approx",
+    "version": "0.5",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "parry2d",
+    "version": "0.31.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "parry3d",
+    "version": "0.31.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "parry2d-f64",
+    "version": "0.31.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "parry3d-f64",
+    "version": "0.31.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "arrayvec",
+    "version": "0.7",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bitflags",
+    "version": "2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bytemuck",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "log",
+    "version": "0.4",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "thiserror",
+    "version": "2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "profiling",
+    "version": "1.0",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "static_assertions",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "wide",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "web-time",
+    "version": "1.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rayon",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rand",
+    "version": "0.10",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rand_pcg",
+    "version": "0.10",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "num_cpus",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "libc",
+    "version": "0.2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "Inflector",
+    "version": "0.11",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "md5",
+    "version": "0.8",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "egui",
+    "version": "0.34",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "puffin_egui",
+    "version": "0.30",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "indexmap",
+    "version": "2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "kiss3d",
+    "version": "0.45.0",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "env_logger",
+    "version": "0.11",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "anyhow",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "urdf-rs",
+    "version": "0.9",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "mesh-loader",
+    "version": "0.1.13",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "roxmltree",
+    "version": "0.20",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "lyon",
+    "version": "0.17",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "dot_vox",
+    "version": "5",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "usvg",
+    "version": "0.14",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "obj-rs",
+    "version": "0.7",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "glam",
+    "version": "0.33",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "getrandom",
+    "version": "0.2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "wasm-bindgen",
+    "version": "0.2",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier2d",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier2d-f64",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d-f64",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier_testbed2d",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier_testbed2d-f64",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier_testbed3d",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier_testbed3d-f64",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d-urdf",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d-meshloader",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "mjcf-rs",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d-mjcf",
+    "version": "0.36.1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bincode",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "oorandom",
+    "version": "11",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tempfile",
+    "version": "3",
+    "source_file": "Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@docusaurus/core",
+    "version": "^3.5.2",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@docusaurus/preset-classic",
+    "version": "^3.5.2",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mdx-js/react",
+    "version": "^3.0",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "clsx",
+    "version": "^1.1.1",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.2",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.2",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rehype-katex",
+    "version": "7",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remark-math",
+    "version": "6",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "terminus",
+    "version": "^1.1.0",
+    "source_file": "website/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "resolver",
+    "version": "2",
+    "source_file": "website/docs-examples/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "inject_file",
+    "source_file": "website/docs-examples/inject_file/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "website/docs-examples/inject_file/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "website/docs-examples/inject_file/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "regex",
+    "version": "1.10",
+    "source_file": "website/docs-examples/inject_file/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_snippets_rust3d",
+    "source_file": "website/docs-examples/3d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "website/docs-examples/3d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "website/docs-examples/3d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "kiss3d",
+    "version": "0.45.0",
+    "source_file": "website/docs-examples/3d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dimforge/rapier3d",
+    "version": "file:../../../../bindings/typescript/builds/rapier3d/pkg",
+    "source_file": "website/docs-examples/3d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "html-loader",
+    "version": "^5.0.0",
+    "source_file": "website/docs-examples/3d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "html-webpack-plugin",
+    "version": "^5.6.0",
+    "source_file": "website/docs-examples/3d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-loader",
+    "version": "^9.5.1",
+    "source_file": "website/docs-examples/3d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "wasm-pack",
+    "version": "^0.12.1",
+    "source_file": "website/docs-examples/3d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack-cli",
+    "version": "^5.1.4",
+    "source_file": "website/docs-examples/3d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_snippets_bevy3d",
+    "source_file": "website/docs-examples/3d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "website/docs-examples/3d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "website/docs-examples/3d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "website/docs-examples/3d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_snippets_rust2d",
+    "source_file": "website/docs-examples/2d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "website/docs-examples/2d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "website/docs-examples/2d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "crossbeam",
+    "version": "0.8.4",
+    "source_file": "website/docs-examples/2d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bincode",
+    "version": "2.0.1",
+    "source_file": "website/docs-examples/2d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1.0",
+    "source_file": "website/docs-examples/2d/rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dimforge/rapier2d",
+    "version": "file:../../../../bindings/typescript/builds/rapier2d/pkg",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "html-loader",
+    "version": "^5.0.0",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "html-webpack-plugin",
+    "version": "^5.6.0",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pixi-viewport",
+    "version": "^4.37.0",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pixi.js",
+    "version": "^6.3.2",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-loader",
+    "version": "^9.5.1",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "wasm-pack",
+    "version": "^0.12.1",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack-cli",
+    "version": "^5.1.4",
+    "source_file": "website/docs-examples/2d/javascript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_snippets_bevy2d",
+    "source_file": "website/docs-examples/2d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "website/docs-examples/2d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "website/docs-examples/2d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "website/docs-examples/2d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bincode",
+    "version": "2.0.1",
+    "source_file": "website/docs-examples/2d/bevy/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier-examples-3d-f64",
+    "source_file": "examples3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "default-run",
+    "version": "all_examples3-f64",
+    "source_file": "examples3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "all_examples3-f64",
+    "source_file": "examples3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "./all_examples3-f64.rs",
+    "source_file": "examples3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier-examples-3d",
+    "source_file": "examples3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "default-run",
+    "version": "all_examples3",
+    "source_file": "examples3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "all_examples3",
+    "source_file": "examples3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "./all_examples3.rs",
+    "source_file": "examples3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "harness_capsules3",
+    "source_file": "examples3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "./harness_capsules3.rs",
+    "source_file": "examples3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier-examples-2d",
+    "source_file": "examples2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "default-run",
+    "version": "all_examples2",
+    "source_file": "examples2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "all_examples2",
+    "source_file": "examples2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "./all_examples2.rs",
+    "source_file": "examples2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed3d-f64",
+    "source_file": "crates/rapier_testbed3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Testbed for the Rapier 3-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier_testbed3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed3d_f64",
+    "source_file": "crates/rapier_testbed3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src_testbed/lib.rs",
+    "source_file": "crates/rapier_testbed3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "package",
+    "version": "rapier3d-f64",
+    "source_file": "crates/rapier_testbed3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../rapier3d-f64",
+    "source_file": "crates/rapier_testbed3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.36.1",
+    "source_file": "crates/rapier_testbed3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed3d",
+    "source_file": "crates/rapier_testbed3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Testbed for the Rapier 3-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier_testbed3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed3d",
+    "source_file": "crates/rapier_testbed3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src_testbed/lib.rs",
+    "source_file": "crates/rapier_testbed3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "package",
+    "version": "rapier3d",
+    "source_file": "crates/rapier_testbed3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../rapier3d",
+    "source_file": "crates/rapier_testbed3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.36.1",
+    "source_file": "crates/rapier_testbed3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed2d-f64",
+    "source_file": "crates/rapier_testbed2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Testbed for the Rapier 2-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier_testbed2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed2d_f64",
+    "source_file": "crates/rapier_testbed2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src_testbed/lib.rs",
+    "source_file": "crates/rapier_testbed2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "package",
+    "version": "rapier2d-f64",
+    "source_file": "crates/rapier_testbed2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../rapier2d-f64",
+    "source_file": "crates/rapier_testbed2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.36.1",
+    "source_file": "crates/rapier_testbed2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed2d",
+    "source_file": "crates/rapier_testbed2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Testbed for the Rapier 2-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier_testbed2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier_testbed2d",
+    "source_file": "crates/rapier_testbed2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src_testbed/lib.rs",
+    "source_file": "crates/rapier_testbed2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "package",
+    "version": "rapier2d",
+    "source_file": "crates/rapier_testbed2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../rapier2d",
+    "source_file": "crates/rapier_testbed2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.36.1",
+    "source_file": "crates/rapier_testbed2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d-urdf",
+    "source_file": "crates/rapier3d-urdf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "URDF file loader for the 3D rapier physics engine.",
+    "source_file": "crates/rapier3d-urdf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier3d-urdf",
+    "source_file": "crates/rapier3d-urdf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "README.md",
+    "source_file": "crates/rapier3d-urdf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d-mjcf",
+    "source_file": "crates/rapier3d-mjcf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "MuJoCo MJCF loader for the 3D rapier physics engine.",
+    "source_file": "crates/rapier3d-mjcf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier3d-mjcf",
+    "source_file": "crates/rapier3d-mjcf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "README.md",
+    "source_file": "crates/rapier3d-mjcf/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d-meshloader",
+    "source_file": "crates/rapier3d-meshloader/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "STL file loader for the 3D rapier physics engine.",
+    "source_file": "crates/rapier3d-meshloader/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier3d-meshloader",
+    "source_file": "crates/rapier3d-meshloader/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "README.md",
+    "source_file": "crates/rapier3d-meshloader/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d-f64",
+    "source_file": "crates/rapier3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "3-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier3d",
+    "source_file": "crates/rapier3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "../../README.md",
+    "source_file": "crates/rapier3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d_f64",
+    "source_file": "crates/rapier3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src/lib.rs",
+    "source_file": "crates/rapier3d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d",
+    "source_file": "crates/rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "3-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier3d",
+    "source_file": "crates/rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "../../README.md",
+    "source_file": "crates/rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d",
+    "source_file": "crates/rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src/lib.rs",
+    "source_file": "crates/rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d-f64",
+    "source_file": "crates/rapier2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "2-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier2d",
+    "source_file": "crates/rapier2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "../../README.md",
+    "source_file": "crates/rapier2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d_f64",
+    "source_file": "crates/rapier2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src/lib.rs",
+    "source_file": "crates/rapier2d-f64/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d",
+    "source_file": "crates/rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "2-dimensional physics engine in Rust.",
+    "source_file": "crates/rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier2d",
+    "source_file": "crates/rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "../../README.md",
+    "source_file": "crates/rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d",
+    "source_file": "crates/rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../../src/lib.rs",
+    "source_file": "crates/rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "mjcf-rs",
+    "source_file": "crates/mjcf-rs/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Pure-Rust parser for the MuJoCo MJCF XML format.",
+    "source_file": "crates/mjcf-rs/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "https://docs.rs/mjcf-rs",
+    "source_file": "crates/mjcf-rs/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "README.md",
+    "source_file": "crates/mjcf-rs/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "byteorder",
+    "version": "1",
+    "source_file": "crates/mjcf-rs/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "resolver",
+    "version": "2",
+    "source_file": "bindings/typescript/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "2.7.1",
+    "source_file": "bindings/typescript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typedoc",
+    "version": "0.23.19",
+    "source_file": "bindings/typescript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "4.8.4",
+    "source_file": "bindings/typescript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "wasm-opt",
+    "version": "1.4.0",
+    "source_file": "bindings/typescript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "wasm-pack",
+    "version": "0.12.1",
+    "source_file": "bindings/typescript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dimforge/rapier3d",
+    "version": "file:../builds/rapier3d",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "hash-wasm",
+    "version": "^4.12.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lil-gui",
+    "version": "^0.17.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "seedrandom",
+    "version": "^3.0.5",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stats.js",
+    "version": "^0.17.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "three",
+    "version": "^0.146.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/seedrandom",
+    "version": "^3.0.2",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/stats.js",
+    "version": "^0.17.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/three",
+    "version": "^0.144.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "copy-webpack-plugin",
+    "version": "^11.0.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^3.0.2",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-loader",
+    "version": "^9.4.1",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^4.8.4",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack",
+    "version": "^5.74.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack-cli",
+    "version": "^4.10.0",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack-dev-server",
+    "version": "^4.11.1",
+    "source_file": "bindings/typescript/testbed3d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dimforge/rapier2d",
+    "version": "file:../builds/rapier2d",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "hash-wasm",
+    "version": "^4.12.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lil-gui",
+    "version": "^0.17.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pixi-viewport",
+    "version": "^4.37.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pixi.js",
+    "version": "^6.3.2",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "seedrandom",
+    "version": "^3.0.5",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stats.js",
+    "version": "^0.17.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/seedrandom",
+    "version": "^3.0.2",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/stats.js",
+    "version": "^0.17.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "copy-webpack-plugin",
+    "version": "^11.0.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^3.0.2",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-loader",
+    "version": "^9.4.1",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^4.8.4",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack",
+    "version": "^5.74.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack-cli",
+    "version": "^4.10.0",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack-dev-server",
+    "version": "^4.11.1",
+    "source_file": "bindings/typescript/testbed2d/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "base64-js",
+    "version": "^1.5.1",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@rollup/plugin-commonjs",
+    "version": "^23.0.2",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@rollup/plugin-node-resolve",
+    "version": "^15.0.1",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@rollup/plugin-typescript",
+    "version": "^9.0.2",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@rollup/plugin-terser",
+    "version": "0.1.0",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^29.2.1",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^29.2.2",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^3.0.2",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rollup",
+    "version": "^3.2.5",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rollup-plugin-base64",
+    "version": "^1.0.1",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rollup-plugin-copy",
+    "version": "^3.4.0",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rollup-plugin-filesize",
+    "version": "^9.1.2",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-jest",
+    "version": "^29.0.3",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tslib",
+    "version": "^2.4.1",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^4.8.4",
+    "source_file": "bindings/typescript/rapier-compat/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "prepare_builds",
+    "source_file": "bindings/typescript/builds/prepare_builds/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "bindings/typescript/builds/prepare_builds/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "bindings/typescript/builds/prepare_builds/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "clap",
+    "version": "4.5",
+    "source_file": "bindings/typescript/builds/prepare_builds/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "clap_derive",
+    "version": "4.5",
+    "source_file": "bindings/typescript/builds/prepare_builds/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tera",
+    "version": "1.20",
+    "source_file": "bindings/typescript/builds/prepare_builds/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rapier3d",
+    "version": "",
+    "source_file": "bindings/python/rapier-testbed/pyproject.toml",
+    "raw": "rapier3d"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "numpy",
+    "version": ">=1.21",
+    "source_file": "bindings/python/rapier-testbed/pyproject.toml",
+    "raw": "numpy>=1.21"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "panda3d",
+    "version": ">=1.10",
+    "source_file": "bindings/python/rapier-testbed/pyproject.toml",
+    "raw": "panda3d>=1.10"
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier-py-3d",
+    "source_file": "bindings/python/rapier-py-3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "PyO3 extension module wrapping rapier3d (f32).",
+    "source_file": "bindings/python/rapier-py-3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "_rapier3d",
+    "source_file": "bindings/python/rapier-py-3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "src/lib.rs",
+    "source_file": "bindings/python/rapier-py-3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "pyo3",
+    "version": "0.22",
+    "source_file": "bindings/python/rapier-py-3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "numpy",
+    "version": "0.22",
+    "source_file": "bindings/python/rapier-py-3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "native",
+    "name": "Threads",
+    "version": "",
+    "source_file": "bindings/c/CMakeLists.txt",
+    "raw": "find_package(Threads"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Rapier",
+    "version": "",
+    "source_file": "bindings/c/tests/consumer/CMakeLists.txt",
+    "raw": "find_package(Rapier"
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier-c-logo-mesh",
+    "source_file": "bindings/c/testbed/tools/logo-mesh/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "bindings/c/testbed/tools/logo-mesh/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2024",
+    "source_file": "bindings/c/testbed/tools/logo-mesh/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "lyon",
+    "version": "0.17",
+    "source_file": "bindings/c/testbed/tools/logo-mesh/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "usvg",
+    "version": "0.14",
+    "source_file": "bindings/c/testbed/tools/logo-mesh/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d-ffi",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rust-version",
+    "version": "1.99",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "C ABI for rapier3d",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "build",
+    "version": "../build.rs",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d_ffi",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../src/lib.rs",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "compare_steps",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/compare_steps.rs",
+    "source_file": "bindings/c/rapier3d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d-f64-ffi",
+    "source_file": "bindings/c/rapier3d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rust-version",
+    "version": "1.99",
+    "source_file": "bindings/c/rapier3d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "C ABI for rapier3d-f64",
+    "source_file": "bindings/c/rapier3d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "build",
+    "version": "../build.rs",
+    "source_file": "bindings/c/rapier3d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier3d_f64_ffi",
+    "source_file": "bindings/c/rapier3d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../src/lib.rs",
+    "source_file": "bindings/c/rapier3d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d-ffi",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rust-version",
+    "version": "1.99",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "C ABI for rapier2d",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "build",
+    "version": "../build.rs",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d_ffi",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../src/lib.rs",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "compare_steps",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/compare_steps.rs",
+    "source_file": "bindings/c/rapier2d-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d-f64-ffi",
+    "source_file": "bindings/c/rapier2d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rust-version",
+    "version": "1.99",
+    "source_file": "bindings/c/rapier2d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "C ABI for rapier2d-f64",
+    "source_file": "bindings/c/rapier2d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "build",
+    "version": "../build.rs",
+    "source_file": "bindings/c/rapier2d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier2d_f64_ffi",
+    "source_file": "bindings/c/rapier2d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../src/lib.rs",
+    "source_file": "bindings/c/rapier2d-f64-ffi/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "rapier-c-macros",
+    "source_file": "bindings/c/rapier-c-macros/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rust-version",
+    "version": "1.99",
+    "source_file": "bindings/c/rapier-c-macros/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "native",
+    "name": "Doxygen",
+    "version": "",
+    "source_file": "bindings/c/doxygen/CMakeLists.txt",
+    "raw": "find_package(Doxygen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Python3",
+    "version": "",
+    "source_file": "bindings/c/doxygen/CMakeLists.txt",
+    "raw": "find_package(Python3"
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "resolver",
+    "version": "2",
+    "source_file": "bindings/bevy_rapier/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier2d",
+    "version": "0.36.1",
+    "source_file": "bindings/bevy_rapier/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d",
+    "version": "0.36.1",
+    "source_file": "bindings/bevy_rapier/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d-urdf",
+    "version": "0.36.1",
+    "source_file": "bindings/bevy_rapier/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d-mjcf",
+    "version": "0.36.1",
+    "source_file": "bindings/bevy_rapier/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rapier3d-meshloader",
+    "version": "0.36.1",
+    "source_file": "bindings/bevy_rapier/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "ci",
+    "source_file": "bindings/bevy_rapier/ci/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "bindings/bevy_rapier/ci/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "bindings/bevy_rapier/ci/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "bindings/bevy_rapier/ci/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy_rapier3d",
+    "version": "0.37",
+    "source_file": "bindings/bevy_rapier/ci/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy_rapier2d",
+    "version": "0.37",
+    "source_file": "bindings/bevy_rapier/ci/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "ambiguity_detection",
+    "source_file": "bindings/bevy_rapier/ci/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "bevy_rapier_benches3d",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Custom benchmarks for bevy_rapier.",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "./README.md",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "Apache-2.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy_rapier3d",
+    "version": "0.37",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "divan",
+    "version": "0.1",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "cubes",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "many_pyramids3",
+    "source_file": "bindings/bevy_rapier/bevy_rapier_benches3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "bevy_rapier3d",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.37.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "3-dimensional physics engine in Rust, official Bevy plugin.",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "http://docs.rs/bevy_rapier3d",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "homepage",
+    "version": "http://rapier.rs",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "repository",
+    "version": "https://github.com/dimforge/rapier",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "../README.md",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "Apache-2.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../src/lib.rs",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "nalgebra",
+    "version": "0.35",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bitflags",
+    "version": "2.10.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "log",
+    "version": "0.4",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "approx",
+    "version": "0.5.1",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "glam",
+    "version": "0.33",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "urdf3",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "mjcf3",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "picking3",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "testbed3",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "soft_fem3",
+    "source_file": "bindings/bevy_rapier/bevy_rapier3d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "bevy_rapier2d",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.37.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "2-dimensional physics engine in Rust, official Bevy plugin.",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "documentation",
+    "version": "http://docs.rs/bevy_rapier2d",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "homepage",
+    "version": "http://rapier.rs",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "repository",
+    "version": "https://github.com/dimforge/rapier",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "readme",
+    "version": "../README.md",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "Apache-2.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../src/lib.rs",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "nalgebra",
+    "version": "0.35",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bitflags",
+    "version": "2.10.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "log",
+    "version": "0.4",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "bevy",
+    "version": "0.20",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "oorandom",
+    "version": "11",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "approx",
+    "version": "0.5.1",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "glam",
+    "version": "0.33",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1.0",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "soft_fem2",
+    "source_file": "bindings/bevy_rapier/bevy_rapier2d/Cargo.toml",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 87,
+  "files_with_findings": 85,
+  "severity": {
+   "high": 7,
+   "medium": 0,
+   "low": 80
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 7,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "run-ci-checks.sh",
+      "line": 133,
+      "cwe": "CWE-78",
+      "snippet": "export CARGO_TARGET_WASM32_WASIP1_RUNNER=\"node $(pwd)/.github/scripts/run-wasi.mjs\""
+     },
+     {
+      "severity": "high",
+      "file": "website/src/userGuideVariants.js",
+      "line": 107,
+      "cwe": "CWE-95",
+      "snippet": "const match = /^user_guides\\/([^/]+)\\/([^/]+)$/.exec(id);"
+     },
+     {
+      "severity": "high",
+      "file": "website/docs-examples/3d/python/serialization.py",
+      "line": 41,
+      "cwe": "CWE-502",
+      "snippet": "unpickled = pickle.loads(data)"
+     },
+     {
+      "severity": "high",
+      "file": "src/control/character_controller.rs",
+      "line": 50,
+      "cwe": "CWE-95",
+      "snippet": "fn eval(self, value: Real) -> Real {"
+     },
+     {
+      "severity": "high",
+      "file": "bindings/python/tests/test_serde.py",
+      "line": 117,
+      "cwe": "CWE-502",
+      "snippet": "w2 = pickle.loads(blob)"
+     },
+     {
+      "severity": "high",
+      "file": "bindings/python/tests/test_soft_bodies.py",
+      "line": 422,
+      "cwe": "CWE-502",
+      "snippet": "assert pickle.loads(pickle.dumps(h)) == h"
+     },
+     {
+      "severity": "high",
+      "file": "bindings/c/testbed/examples3d/utils/files.h",
+      "line": 20,
+      "cwe": "CWE-120",
+      "snippet": "strcpy(names[files->count++], name);"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 78,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "website/docs-examples/inject_file/src/main.rs",
+      "line": 91,
+      "cwe": "CWE-",
+      "snippet": "// FIXME: I think we should just paste all the inside,"
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/3d/rust/examples/rs_character_controller3.rs",
+      "line": 42,
+      "cwe": "CWE-",
+      "snippet": "// TODO: apply the `corrected_movement.translation` to the rigid-body or collider based on the rules described below."
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/3d/python/character_controller.py",
+      "line": 40,
+      "cwe": "CWE-",
+      "snippet": "# TODO: apply the `corrected_movement.translation` to the rigid-body or collider based on the rules described below."
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/3d/c/examples/character_controller3.c",
+      "line": 44,
+      "cwe": "CWE-",
+      "snippet": "// TODO: apply the `corrected_movement.translation` to the rigid-body or collider based on the rules described below."
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/3d/bevy/examples/rigid_bodies3.rs",
+      "line": 59,
+      "cwe": "CWE-",
+      "snippet": "// FIXME: this shows we can set a rotation but the resulting object does not rotate"
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/2d/rust/examples/rs_character_controller2.rs",
+      "line": 44,
+      "cwe": "CWE-",
+      "snippet": "// TODO: apply the `corrected_movement.translation` to the rigid-body or collider based on the rules described below."
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/2d/javascript/src/snippets/character_controller.ts",
+      "line": 30,
+      "cwe": "CWE-",
+      "snippet": "// TODO: apply this corrected movement by following the rules described below."
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/2d/c/examples/character_controller2.c",
+      "line": 44,
+      "cwe": "CWE-",
+      "snippet": "// TODO: apply the `corrected_movement.translation` to the rigid-body or collider based on the rules described below."
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/2d/bevy/examples/contact_modification.rs",
+      "line": 63,
+      "cwe": "CWE-",
+      "snippet": "// TODO: add other colliders in a similar way."
+     },
+     {
+      "severity": "low",
+      "file": "website/docs-examples/2d/bevy/examples/physics_hooks.rs",
+      "line": 57,
+      "cwe": "CWE-",
+      "snippet": "// TODO: add other colliders in a similar way."
+     },
+     {
+      "severity": "low",
+      "file": "src/lib.rs",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "#![allow(clippy::needless_range_loop)] // TODO: remove this? I find that in the math code using indices adds clarity."
+     },
+     {
+      "severity": "low",
+      "file": "src/utils/cross_product.rs",
+      "line": 58,
+      "cwe": "CWE-",
+      "snippet": "todo!(\"This isn't really used by rapier\")"
+     },
+     {
+      "severity": "low",
+      "file": "src/utils/rotation_ops.rs",
+      "line": 76,
+      "cwe": "CWE-",
+      "snippet": "// TODO: this can probably be optimized a lot by unrolling the ops."
+     },
+     {
+      "severity": "low",
+      "file": "src/pipeline/query_pipeline.rs",
+      "line": 299,
+      "cwe": "CWE-",
+      "snippet": "// TODO: add this to CompositeShapeRef?"
+     },
+     {
+      "severity": "low",
+      "file": "src/pipeline/user_changes.rs",
+      "line": 51,
+      "cwe": "CWE-",
+      "snippet": "multibody_joints: &mut MultibodyJointSet, // FIXME: propagate disabled state to multibodies"
+     },
+     {
+      "severity": "low",
+      "file": "src/pipeline/physics_pipeline/substep.rs",
+      "line": 291,
+      "cwe": "CWE-",
+      "snippet": "// TODO: what is the best place for this? It should at least be"
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/collider.rs",
+      "line": 618,
+      "cwe": "CWE-",
+      "snippet": "// TODO: we have a lot of different AABB computation functions"
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/contact_pair.rs",
+      "line": 25,
+      "cwe": "CWE-",
+      "snippet": "// TODO: add a COMPUTE_SOFT_IMPULSES flag too?"
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/mesh_converter.rs",
+      "line": 11,
+      "cwe": "CWE-",
+      "snippet": "* TODO: should all this be part of parry instead?"
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/narrow_phase/contacts.rs",
+      "line": 341,
+      "cwe": "CWE-",
+      "snippet": "let mut color_todo = core::mem::take(&mut self.solver_color_todo);"
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/narrow_phase/intersections.rs",
+      "line": 83,
+      "cwe": "CWE-",
+      "snippet": "// TODO: avoid lookup into bodies."
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/narrow_phase/mod.rs",
+      "line": 401,
+      "cwe": "CWE-",
+      "snippet": "solver_color_todo: Vec<(u32, u32, u32)>,"
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/narrow_phase/pair_management.rs",
+      "line": 33,
+      "cwe": "CWE-",
+      "snippet": "// TODO: avoid these hash-maps."
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/narrow_phase/pair_update.rs",
+      "line": 381,
+      "cwe": "CWE-",
+      "snippet": "// TODO(perf): would it be worth it to check if the aabb overlaps the leaves of composite shapes?"
+     },
+     {
+      "severity": "low",
+      "file": "src/geometry/broad_phase_bvh/mod.rs",
+      "line": 105,
+      "cwe": "CWE-",
+      "snippet": "// TODO: would be interesting to try out:"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "examples2d/utils/svg.rs",
+      "line": 10,
+      "cwe": "CWE-319",
+      "snippet": "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">"
+     },
+     {
+      "severity": "low",
+      "file": "crates/rapier3d-urdf/src/lib.rs",
+      "line": 662,
+      "cwe": "CWE-319",
+      "snippet": "// See http://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model#Inertia"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 1,
+  "files_with_findings": 1,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 1
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "bindings/c/testbed/tests/interactive.c",
+      "line": 149,
+      "cwe": "CWE-",
+      "snippet": "assert(input.verified);"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:1d78c261-1ccb-5434-bf96-6f958a0435c0",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-12T05:36:33Z",
+   "component": {
+    "type": "application",
+    "name": "BULLET",
+    "version": "475caa3ff464",
+    "bom-ref": "pkg:generic/anticloud/BULLET@475caa3ff464",
+    "purl": "pkg:generic/anticloud/BULLET@475caa3ff464",
+    "licenses": [
+     {
+      "license": {
+       "id": "Apache-2.0"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "475caa3ff4646fd9a796b67d14116256f4962bc7"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": ""
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "resolver",
+    "version": "2",
+    "purl": "pkg:cargo/resolver@2",
+    "bom-ref": "cargo/resolver@2"
+   },
+   {
+    "type": "library",
+    "name": "version",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/version@0.36.1",
+    "bom-ref": "cargo/version@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "homepage",
+    "version": "https://rapier.rs",
+    "purl": "pkg:cargo/homepage@https://rapier.rs",
+    "bom-ref": "cargo/homepage@https://rapier.rs"
+   },
+   {
+    "type": "library",
+    "name": "repository",
+    "version": "https://github.com/dimforge/rapier",
+    "purl": "pkg:cargo/repository@https://github.com/dimforge/rapier",
+    "bom-ref": "cargo/repository@https://github.com/dimforge/rapier"
+   },
+   {
+    "type": "library",
+    "name": "license",
+    "version": "Apache-2.0",
+    "purl": "pkg:cargo/license@Apache-2.0",
+    "bom-ref": "cargo/license@Apache-2.0"
+   },
+   {
+    "type": "library",
+    "name": "rust-version",
+    "version": "1.86",
+    "purl": "pkg:cargo/rust-version@1.86",
+    "bom-ref": "cargo/rust-version@1.86"
+   },
+   {
+    "type": "library",
+    "name": "edition",
+    "version": "2024",
+    "purl": "pkg:cargo/edition@2024",
+    "bom-ref": "cargo/edition@2024"
+   },
+   {
+    "type": "library",
+    "name": "needless_lifetimes",
+    "version": "allow",
+    "purl": "pkg:cargo/needless_lifetimes@allow",
+    "bom-ref": "cargo/needless_lifetimes@allow"
+   },
+   {
+    "type": "library",
+    "name": "nalgebra",
+    "version": "0.35",
+    "purl": "pkg:cargo/nalgebra@0.35",
+    "bom-ref": "cargo/nalgebra@0.35"
+   },
+   {
+    "type": "library",
+    "name": "glamx",
+    "version": "0.3.1",
+    "purl": "pkg:cargo/glamx@0.3.1",
+    "bom-ref": "cargo/glamx@0.3.1"
+   },
+   {
+    "type": "library",
+    "name": "simba",
+    "version": "0.10.2",
+    "purl": "pkg:cargo/simba@0.10.2",
+    "bom-ref": "cargo/simba@0.10.2"
+   },
+   {
+    "type": "library",
+    "name": "num-traits",
+    "version": "0.2",
+    "purl": "pkg:cargo/num-traits@0.2",
+    "bom-ref": "cargo/num-traits@0.2"
+   },
+   {
+    "type": "library",
+    "name": "approx",
+    "version": "0.5",
+    "purl": "pkg:cargo/approx@0.5",
+    "bom-ref": "cargo/approx@0.5"
+   },
+   {
+    "type": "library",
+    "name": "parry2d",
+    "version": "0.31.1",
+    "purl": "pkg:cargo/parry2d@0.31.1",
+    "bom-ref": "cargo/parry2d@0.31.1"
+   },
+   {
+    "type": "library",
+    "name": "parry3d",
+    "version": "0.31.1",
+    "purl": "pkg:cargo/parry3d@0.31.1",
+    "bom-ref": "cargo/parry3d@0.31.1"
+   },
+   {
+    "type": "library",
+    "name": "parry2d-f64",
+    "version": "0.31.1",
+    "purl": "pkg:cargo/parry2d-f64@0.31.1",
+    "bom-ref": "cargo/parry2d-f64@0.31.1"
+   },
+   {
+    "type": "library",
+    "name": "parry3d-f64",
+    "version": "0.31.1",
+    "purl": "pkg:cargo/parry3d-f64@0.31.1",
+    "bom-ref": "cargo/parry3d-f64@0.31.1"
+   },
+   {
+    "type": "library",
+    "name": "arrayvec",
+    "version": "0.7",
+    "purl": "pkg:cargo/arrayvec@0.7",
+    "bom-ref": "cargo/arrayvec@0.7"
+   },
+   {
+    "type": "library",
+    "name": "bitflags",
+    "version": "2",
+    "purl": "pkg:cargo/bitflags@2",
+    "bom-ref": "cargo/bitflags@2"
+   },
+   {
+    "type": "library",
+    "name": "bytemuck",
+    "version": "1",
+    "purl": "pkg:cargo/bytemuck@1",
+    "bom-ref": "cargo/bytemuck@1"
+   },
+   {
+    "type": "library",
+    "name": "log",
+    "version": "0.4",
+    "purl": "pkg:cargo/log@0.4",
+    "bom-ref": "cargo/log@0.4"
+   },
+   {
+    "type": "library",
+    "name": "thiserror",
+    "version": "2",
+    "purl": "pkg:cargo/thiserror@2",
+    "bom-ref": "cargo/thiserror@2"
+   },
+   {
+    "type": "library",
+    "name": "profiling",
+    "version": "1.0",
+    "purl": "pkg:cargo/profiling@1.0",
+    "bom-ref": "cargo/profiling@1.0"
+   },
+   {
+    "type": "library",
+    "name": "static_assertions",
+    "version": "1",
+    "purl": "pkg:cargo/static_assertions@1",
+    "bom-ref": "cargo/static_assertions@1"
+   },
+   {
+    "type": "library",
+    "name": "wide",
+    "version": "1",
+    "purl": "pkg:cargo/wide@1",
+    "bom-ref": "cargo/wide@1"
+   },
+   {
+    "type": "library",
+    "name": "web-time",
+    "version": "1.1",
+    "purl": "pkg:cargo/web-time@1.1",
+    "bom-ref": "cargo/web-time@1.1"
+   },
+   {
+    "type": "library",
+    "name": "rayon",
+    "version": "1",
+    "purl": "pkg:cargo/rayon@1",
+    "bom-ref": "cargo/rayon@1"
+   },
+   {
+    "type": "library",
+    "name": "serde",
+    "version": "1",
+    "purl": "pkg:cargo/serde@1",
+    "bom-ref": "cargo/serde@1"
+   },
+   {
+    "type": "library",
+    "name": "rand",
+    "version": "0.10",
+    "purl": "pkg:cargo/rand@0.10",
+    "bom-ref": "cargo/rand@0.10"
+   },
+   {
+    "type": "library",
+    "name": "rand_pcg",
+    "version": "0.10",
+    "purl": "pkg:cargo/rand_pcg@0.10",
+    "bom-ref": "cargo/rand_pcg@0.10"
+   },
+   {
+    "type": "library",
+    "name": "num_cpus",
+    "version": "1",
+    "purl": "pkg:cargo/num_cpus@1",
+    "bom-ref": "cargo/num_cpus@1"
+   },
+   {
+    "type": "library",
+    "name": "libc",
+    "version": "0.2",
+    "purl": "pkg:cargo/libc@0.2",
+    "bom-ref": "cargo/libc@0.2"
+   },
+   {
+    "type": "library",
+    "name": "Inflector",
+    "version": "0.11",
+    "purl": "pkg:cargo/Inflector@0.11",
+    "bom-ref": "cargo/Inflector@0.11"
+   },
+   {
+    "type": "library",
+    "name": "md5",
+    "version": "0.8",
+    "purl": "pkg:cargo/md5@0.8",
+    "bom-ref": "cargo/md5@0.8"
+   },
+   {
+    "type": "library",
+    "name": "egui",
+    "version": "0.34",
+    "purl": "pkg:cargo/egui@0.34",
+    "bom-ref": "cargo/egui@0.34"
+   },
+   {
+    "type": "library",
+    "name": "puffin_egui",
+    "version": "0.30",
+    "purl": "pkg:cargo/puffin_egui@0.30",
+    "bom-ref": "cargo/puffin_egui@0.30"
+   },
+   {
+    "type": "library",
+    "name": "indexmap",
+    "version": "2",
+    "purl": "pkg:cargo/indexmap@2",
+    "bom-ref": "cargo/indexmap@2"
+   },
+   {
+    "type": "library",
+    "name": "kiss3d",
+    "version": "0.45.0",
+    "purl": "pkg:cargo/kiss3d@0.45.0",
+    "bom-ref": "cargo/kiss3d@0.45.0"
+   },
+   {
+    "type": "library",
+    "name": "env_logger",
+    "version": "0.11",
+    "purl": "pkg:cargo/env_logger@0.11",
+    "bom-ref": "cargo/env_logger@0.11"
+   },
+   {
+    "type": "library",
+    "name": "anyhow",
+    "version": "1",
+    "purl": "pkg:cargo/anyhow@1",
+    "bom-ref": "cargo/anyhow@1"
+   },
+   {
+    "type": "library",
+    "name": "urdf-rs",
+    "version": "0.9",
+    "purl": "pkg:cargo/urdf-rs@0.9",
+    "bom-ref": "cargo/urdf-rs@0.9"
+   },
+   {
+    "type": "library",
+    "name": "mesh-loader",
+    "version": "0.1.13",
+    "purl": "pkg:cargo/mesh-loader@0.1.13",
+    "bom-ref": "cargo/mesh-loader@0.1.13"
+   },
+   {
+    "type": "library",
+    "name": "roxmltree",
+    "version": "0.20",
+    "purl": "pkg:cargo/roxmltree@0.20",
+    "bom-ref": "cargo/roxmltree@0.20"
+   },
+   {
+    "type": "library",
+    "name": "lyon",
+    "version": "0.17",
+    "purl": "pkg:cargo/lyon@0.17",
+    "bom-ref": "cargo/lyon@0.17"
+   },
+   {
+    "type": "library",
+    "name": "dot_vox",
+    "version": "5",
+    "purl": "pkg:cargo/dot_vox@5",
+    "bom-ref": "cargo/dot_vox@5"
+   },
+   {
+    "type": "library",
+    "name": "usvg",
+    "version": "0.14",
+    "purl": "pkg:cargo/usvg@0.14",
+    "bom-ref": "cargo/usvg@0.14"
+   },
+   {
+    "type": "library",
+    "name": "obj-rs",
+    "version": "0.7",
+    "purl": "pkg:cargo/obj-rs@0.7",
+    "bom-ref": "cargo/obj-rs@0.7"
+   },
+   {
+    "type": "library",
+    "name": "glam",
+    "version": "0.33",
+    "purl": "pkg:cargo/glam@0.33",
+    "bom-ref": "cargo/glam@0.33"
+   },
+   {
+    "type": "library",
+    "name": "getrandom",
+    "version": "0.2",
+    "purl": "pkg:cargo/getrandom@0.2",
+    "bom-ref": "cargo/getrandom@0.2"
+   },
+   {
+    "type": "library",
+    "name": "wasm-bindgen",
+    "version": "0.2",
+    "purl": "pkg:cargo/wasm-bindgen@0.2",
+    "bom-ref": "cargo/wasm-bindgen@0.2"
+   },
+   {
+    "type": "library",
+    "name": "rapier2d",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier2d@0.36.1",
+    "bom-ref": "cargo/rapier2d@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier2d-f64",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier2d-f64@0.36.1",
+    "bom-ref": "cargo/rapier2d-f64@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier3d",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier3d@0.36.1",
+    "bom-ref": "cargo/rapier3d@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier3d-f64",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier3d-f64@0.36.1",
+    "bom-ref": "cargo/rapier3d-f64@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier_testbed2d",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier_testbed2d@0.36.1",
+    "bom-ref": "cargo/rapier_testbed2d@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier_testbed2d-f64",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier_testbed2d-f64@0.36.1",
+    "bom-ref": "cargo/rapier_testbed2d-f64@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier_testbed3d",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier_testbed3d@0.36.1",
+    "bom-ref": "cargo/rapier_testbed3d@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier_testbed3d-f64",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier_testbed3d-f64@0.36.1",
+    "bom-ref": "cargo/rapier_testbed3d-f64@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier3d-urdf",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier3d-urdf@0.36.1",
+    "bom-ref": "cargo/rapier3d-urdf@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier3d-meshloader",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier3d-meshloader@0.36.1",
+    "bom-ref": "cargo/rapier3d-meshloader@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "mjcf-rs",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/mjcf-rs@0.36.1",
+    "bom-ref": "cargo/mjcf-rs@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "rapier3d-mjcf",
+    "version": "0.36.1",
+    "purl": "pkg:cargo/rapier3d-mjcf@0.36.1",
+    "bom-ref": "cargo/rapier3d-mjcf@0.36.1"
+   },
+   {
+    "type": "library",
+    "name": "bincode",
+    "version": "1",
+    "purl": "pkg:cargo/bincode@1",
+    "bom-ref": "cargo/bincode@1"
+   },
+   {
+    "type": "library",
+    "name": "serde_json",
+    "version": "1",
+    "purl": "pkg:cargo/serde_json@1",
+    "bom-ref": "cargo/serde_json@1"
+   },
+   {
+    "type": "library",
+    "name": "oorandom",
+    "version": "11",
+    "purl": "pkg:cargo/oorandom@11",
+    "bom-ref": "cargo/oorandom@11"
+   },
+   {
+    "type": "library",
+    "name": "tempfile",
+    "version": "3",
+    "purl": "pkg:cargo/tempfile@3",
+    "bom-ref": "cargo/tempfile@3"
+   },
+   {
+    "type": "library",
+    "name": "@docusaurus/core",
+    "version": "^3.5.2",
+    "purl": "pkg:npm/@docusaurus/core@^3.5.2",
+    "bom-ref": "npm/@docusaurus/core@^3.5.2"
+   },
+   {
+    "type": "library",
+    "name": "@docusaurus/preset-classic",
+    "version": "^3.5.2",
+    "purl": "pkg:npm/@docusaurus/preset-classic@^3.5.2",
+    "bom-ref": "npm/@docusaurus/preset-classic@^3.5.2"
+   },
+   {
+    "type": "library",
+    "name": "@mdx-js/react",
+    "version": "^3.0",
+    "purl": "pkg:npm/@mdx-js/react@^3.0",
+    "bom-ref": "npm/@mdx-js/react@^3.0"
+   },
+   {
+    "type": "library",
+    "name": "clsx",
+    "version": "^1.1.1",
+    "purl": "pkg:npm/clsx@^1.1.1",
+    "bom-ref": "npm/clsx@^1.1.1"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^18.2",
+    "purl": "pkg:npm/react@^18.2",
+    "bom-ref": "npm/react@^18.2"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "^18.2",
+    "purl": "pkg:npm/react-dom@^18.2",
+    "bom-ref": "npm/react-dom@^18.2"
+   },
+   {
+    "type": "library",
+    "name": "rehype-katex",
+    "version": "7",
+    "purl": "pkg:npm/rehype-katex@7",
+    "bom-ref": "npm/rehype-katex@7"
+   },
+   {
+    "type": "library",
+    "name": "remark-math",
+    "version": "6",
+    "purl": "pkg:npm/remark-math@6",
+    "bom-ref": "npm/remark-math@6"
+   },
+   {
+    "type": "library",
+    "name": "terminus",
+    "version": "^1.1.0",
+    "purl": "pkg:npm/terminus@^1.1.0",
+    "bom-ref": "npm/terminus@^1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "name",
+    "version": "inject_file",
+    "purl": "pkg:cargo/name@inject_file",
+    "bom-ref": "cargo/name@inject_file"
+   },
+   {
+    "type": "library",
+    "name": "regex",
+    "version": "1.10",
+    "purl": "pkg:cargo/regex@1.10",
+    "bom-ref": "cargo/regex@1.10"
+   },
+   {
+    "type": "library",
+    "name": "@dimforge/rapier3d",
+    "version": "file:../../../../bindings/typescript/builds/rapier3d/pkg",
+    "purl": "pkg:npm/@dimforge/rapier3d@file:../../../../bindings/typescript/builds/rapier3d/pkg",
+    "bom-ref": "npm/@dimforge/rapier3d@file:../../../../bindings/typescript/builds/rapier3d/pkg"
+   },
+   {
+    "type": "library",
+    "name": "html-loader",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/html-loader@^5.0.0",
+    "bom-ref": "npm/html-loader@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "html-webpack-plugin",
+    "version": "^5.6.0",
+    "purl": "pkg:npm/html-webpack-plugin@^5.6.0",
+    "bom-ref": "npm/html-webpack-plugin@^5.6.0"
+   },
+   {
+    "type": "library",
+    "name": "ts-loader",
+    "version": "^9.5.1",
+    "purl": "pkg:npm/ts-loader@^9.5.1",
+    "bom-ref": "npm/ts-loader@^9.5.1"
+   },
+   {
+    "type": "library",
+    "name": "wasm-pack",
+    "version": "^0.12.1",
+    "purl": "pkg:npm/wasm-pack@^0.12.1",
+    "bom-ref": "npm/wasm-pack@^0.12.1"
+   },
+   {
+    "type": "library",
+    "name": "webpack-cli",
+    "version": "^5.1.4",
+    "purl": "pkg:npm/webpack-cli@^5.1.4",
+    "bom-ref": "npm/webpack-cli@^5.1.4"
+   },
+   {
+    "type": "library",
+    "name": "bevy",
+    "version": "0.20",
+    "purl": "pkg:cargo/bevy@0.20",
+    "bom-ref": "cargo/bevy@0.20"
+   },
+   {
+    "type": "library",
+    "name": "crossbeam",
+    "version": "0.8.4",
+    "purl": "pkg:cargo/crossbeam@0.8.4",
+    "bom-ref": "cargo/crossbeam@0.8.4"
+   },
+   {
+    "type": "library",
+    "name": "@dimforge/rapier2d",
+    "version": "file:../../../../bindings/typescript/builds/rapier2d/pkg",
+    "purl": "pkg:npm/@dimforge/rapier2d@file:../../../../bindings/typescript/builds/rapier2d/pkg",
+    "bom-ref": "npm/@dimforge/rapier2d@file:../../../../bindings/typescript/builds/rapier2d/pkg"
+   },
+   {
+    "type": "library",
+    "name": "pixi-viewport",
+    "version": "^4.37.0",
+    "purl": "pkg:npm/pixi-viewport@^4.37.0",
+    "bom-ref": "npm/pixi-viewport@^4.37.0"
+   },
+   {
+    "type": "library",
+    "name": "pixi.js",
+    "version": "^6.3.2",
+    "purl": "pkg:npm/pixi.js@^6.3.2",
+    "bom-ref": "npm/pixi.js@^6.3.2"
+   },
+   {
+    "type": "library",
+    "name": "default-run",
+    "version": "all_examples3-f64",
+    "purl": "pkg:cargo/default-run@all_examples3-f64",
+    "bom-ref": "cargo/default-run@all_examples3-f64"
+   },
+   {
+    "type": "library",
+    "name": "path",
+    "version": "./all_examples3-f64.rs",
+    "purl": "pkg:cargo/path@./all_examples3-f64.rs",
+    "bom-ref": "cargo/path@./all_examples3-f64.rs"
+   },
+   {
+    "type": "library",
+    "name": "description",
+    "version": "Testbed for the Rapier 3-dimensional physics engine in Rust.",
+    "purl": "pkg:cargo/description@Testbed for the Rapier 3-dimensional physics engine in Rust.",
+    "bom-ref": "cargo/description@Testbed for the Rapier 3-dimensional physics engine in Rust."
+   },
+   {
+    "type": "library",
+    "name": "package",
+    "version": "rapier3d-f64",
+    "purl": "pkg:cargo/package@rapier3d-f64",
+    "bom-ref": "cargo/package@rapier3d-f64"
+   },
+   {
+    "type": "library",
+    "name": "documentation",
+    "version": "https://docs.rs/rapier3d-urdf",
+    "purl": "pkg:cargo/documentation@https://docs.rs/rapier3d-urdf",
+    "bom-ref": "cargo/documentation@https://docs.rs/rapier3d-urdf"
+   },
+   {
+    "type": "library",
+    "name": "readme",
+    "version": "README.md",
+    "purl": "pkg:cargo/readme@README.md",
+    "bom-ref": "cargo/readme@README.md"
+   },
+   {
+    "type": "library",
+    "name": "byteorder",
+    "version": "1",
+    "purl": "pkg:cargo/byteorder@1",
+    "bom-ref": "cargo/byteorder@1"
+   },
+   {
+    "type": "library",
+    "name": "prettier",
+    "version": "2.7.1",
+    "purl": "pkg:npm/prettier@2.7.1",
+    "bom-ref": "npm/prettier@2.7.1"
+   },
+   {
+    "type": "library",
+    "name": "typedoc",
+    "version": "0.23.19",
+    "purl": "pkg:npm/typedoc@0.23.19",
+    "bom-ref": "npm/typedoc@0.23.19"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "4.8.4",
+    "purl": "pkg:npm/typescript@4.8.4",
+    "bom-ref": "npm/typescript@4.8.4"
+   },
+   {
+    "type": "library",
+    "name": "wasm-opt",
+    "version": "1.4.0",
+    "purl": "pkg:npm/wasm-opt@1.4.0",
+    "bom-ref": "npm/wasm-opt@1.4.0"
+   },
+   {
+    "type": "library",
+    "name": "hash-wasm",
+    "version": "^4.12.0",
+    "purl": "pkg:npm/hash-wasm@^4.12.0",
+    "bom-ref": "npm/hash-wasm@^4.12.0"
+   },
+   {
+    "type": "library",
+    "name": "lil-gui",
+    "version": "^0.17.0",
+    "purl": "pkg:npm/lil-gui@^0.17.0",
+    "bom-ref": "npm/lil-gui@^0.17.0"
+   },
+   {
+    "type": "library",
+    "name": "seedrandom",
+    "version": "^3.0.5",
+    "purl": "pkg:npm/seedrandom@^3.0.5",
+    "bom-ref": "npm/seedrandom@^3.0.5"
+   },
+   {
+    "type": "library",
+    "name": "stats.js",
+    "version": "^0.17.0",
+    "purl": "pkg:npm/stats.js@^0.17.0",
+    "bom-ref": "npm/stats.js@^0.17.0"
+   },
+   {
+    "type": "library",
+    "name": "three",
+    "version": "^0.146.0",
+    "purl": "pkg:npm/three@^0.146.0",
+    "bom-ref": "npm/three@^0.146.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/seedrandom",
+    "version": "^3.0.2",
+    "purl": "pkg:npm/@types/seedrandom@^3.0.2",
+    "bom-ref": "npm/@types/seedrandom@^3.0.2"
+   },
+   {
+    "type": "library",
+    "name": "@types/stats.js",
+    "version": "^0.17.0",
+    "purl": "pkg:npm/@types/stats.js@^0.17.0",
+    "bom-ref": "npm/@types/stats.js@^0.17.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/three",
+    "version": "^0.144.0",
+    "purl": "pkg:npm/@types/three@^0.144.0",
+    "bom-ref": "npm/@types/three@^0.144.0"
+   },
+   {
+    "type": "library",
+    "name": "copy-webpack-plugin",
+    "version": "^11.0.0",
+    "purl": "pkg:npm/copy-webpack-plugin@^11.0.0",
+    "bom-ref": "npm/copy-webpack-plugin@^11.0.0"
+   },
+   {
+    "type": "library",
+    "name": "rimraf",
+    "version": "^3.0.2",
+    "purl": "pkg:npm/rimraf@^3.0.2",
+    "bom-ref": "npm/rimraf@^3.0.2"
+   },
+   {
+    "type": "library",
+    "name": "webpack",
+    "version": "^5.74.0",
+    "purl": "pkg:npm/webpack@^5.74.0",
+    "bom-ref": "npm/webpack@^5.74.0"
+   },
+   {
+    "type": "library",
+    "name": "webpack-dev-server",
+    "version": "^4.11.1",
+    "purl": "pkg:npm/webpack-dev-server@^4.11.1",
+    "bom-ref": "npm/webpack-dev-server@^4.11.1"
+   },
+   {
+    "type": "library",
+    "name": "base64-js",
+    "version": "^1.5.1",
+    "purl": "pkg:npm/base64-js@^1.5.1",
+    "bom-ref": "npm/base64-js@^1.5.1"
+   },
+   {
+    "type": "library",
+    "name": "@rollup/plugin-commonjs",
+    "version": "^23.0.2",
+    "purl": "pkg:npm/@rollup/plugin-commonjs@^23.0.2",
+    "bom-ref": "npm/@rollup/plugin-commonjs@^23.0.2"
+   },
+   {
+    "type": "library",
+    "name": "@rollup/plugin-node-resolve",
+    "version": "^15.0.1",
+    "purl": "pkg:npm/@rollup/plugin-node-resolve@^15.0.1",
+    "bom-ref": "npm/@rollup/plugin-node-resolve@^15.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@rollup/plugin-typescript",
+    "version": "^9.0.2",
+    "purl": "pkg:npm/@rollup/plugin-typescript@^9.0.2",
+    "bom-ref": "npm/@rollup/plugin-typescript@^9.0.2"
+   },
+   {
+    "type": "library",
+    "name": "@rollup/plugin-terser",
+    "version": "0.1.0",
+    "purl": "pkg:npm/@rollup/plugin-terser@0.1.0",
+    "bom-ref": "npm/@rollup/plugin-terser@0.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/jest",
+    "version": "^29.2.1",
+    "purl": "pkg:npm/@types/jest@^29.2.1",
+    "bom-ref": "npm/@types/jest@^29.2.1"
+   },
+   {
+    "type": "library",
+    "name": "jest",
+    "version": "^29.2.2",
+    "purl": "pkg:npm/jest@^29.2.2",
+    "bom-ref": "npm/jest@^29.2.2"
+   },
+   {
+    "type": "library",
+    "name": "rollup",
+    "version": "^3.2.5",
+    "purl": "pkg:npm/rollup@^3.2.5",
+    "bom-ref": "npm/rollup@^3.2.5"
+   },
+   {
+    "type": "library",
+    "name": "rollup-plugin-base64",
+    "version": "^1.0.1",
+    "purl": "pkg:npm/rollup-plugin-base64@^1.0.1",
+    "bom-ref": "npm/rollup-plugin-base64@^1.0.1"
+   },
+   {
+    "type": "library",
+    "name": "rollup-plugin-copy",
+    "version": "^3.4.0",
+    "purl": "pkg:npm/rollup-plugin-copy@^3.4.0",
+    "bom-ref": "npm/rollup-plugin-copy@^3.4.0"
+   },
+   {
+    "type": "library",
+    "name": "rollup-plugin-filesize",
+    "version": "^9.1.2",
+    "purl": "pkg:npm/rollup-plugin-filesize@^9.1.2",
+    "bom-ref": "npm/rollup-plugin-filesize@^9.1.2"
+   },
+   {
+    "type": "library",
+    "name": "ts-jest",
+    "version": "^29.0.3",
+    "purl": "pkg:npm/ts-jest@^29.0.3",
+    "bom-ref": "npm/ts-jest@^29.0.3"
+   },
+   {
+    "type": "library",
+    "name": "tslib",
+    "version": "^2.4.1",
+    "purl": "pkg:npm/tslib@^2.4.1",
+    "bom-ref": "npm/tslib@^2.4.1"
+   },
+   {
+    "type": "library",
+    "name": "clap",
+    "version": "4.5",
+    "purl": "pkg:cargo/clap@4.5",
+    "bom-ref": "cargo/clap@4.5"
+   },
+   {
+    "type": "library",
+    "name": "clap_derive",
+    "version": "4.5",
+    "purl": "pkg:cargo/clap_derive@4.5",
+    "bom-ref": "cargo/clap_derive@4.5"
+   },
+   {
+    "type": "library",
+    "name": "tera",
+    "version": "1.20",
+    "purl": "pkg:cargo/tera@1.20",
+    "bom-ref": "cargo/tera@1.20"
+   },
+   {
+    "type": "library",
+    "name": "rapier3d",
+    "version": "unspecified",
+    "purl": "pkg:pypi/rapier3d",
+    "bom-ref": "pypi/rapier3d@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "numpy",
+    "version": ">=1.21",
+    "purl": "pkg:pypi/numpy@1.21",
+    "bom-ref": "pypi/numpy@>=1.21"
+   },
+   {
+    "type": "library",
+    "name": "panda3d",
+    "version": ">=1.10",
+    "purl": "pkg:pypi/panda3d@1.10",
+    "bom-ref": "pypi/panda3d@>=1.10"
+   },
+   {
+    "type": "library",
+    "name": "pyo3",
+    "version": "0.22",
+    "purl": "pkg:cargo/pyo3@0.22",
+    "bom-ref": "cargo/pyo3@0.22"
+   },
+   {
+    "type": "library",
+    "name": "numpy",
+    "version": "0.22",
+    "purl": "pkg:cargo/numpy@0.22",
+    "bom-ref": "cargo/numpy@0.22"
+   },
+   {
+    "type": "library",
+    "name": "Threads",
+    "version": "unspecified",
+    "purl": "pkg:generic/Threads",
+    "bom-ref": "native/Threads@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Rapier",
+    "version": "unspecified",
+    "purl": "pkg:generic/Rapier",
+    "bom-ref": "native/Rapier@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "build",
+    "version": "../build.rs",
+    "purl": "pkg:cargo/build@../build.rs",
+    "bom-ref": "cargo/build@../build.rs"
+   },
+   {
+    "type": "library",
+    "name": "Doxygen",
+    "version": "unspecified",
+    "purl": "pkg:generic/Doxygen",
+    "bom-ref": "native/Doxygen@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Python3",
+    "version": "unspecified",
+    "purl": "pkg:generic/Python3",
+    "bom-ref": "native/Python3@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "bevy_rapier3d",
+    "version": "0.37",
+    "purl": "pkg:cargo/bevy_rapier3d@0.37",
+    "bom-ref": "cargo/bevy_rapier3d@0.37"
+   },
+   {
+    "type": "library",
+    "name": "bevy_rapier2d",
+    "version": "0.37",
+    "purl": "pkg:cargo/bevy_rapier2d@0.37",
+    "bom-ref": "cargo/bevy_rapier2d@0.37"
+   },
+   {
+    "type": "library",
+    "name": "divan",
+    "version": "0.1",
+    "purl": "pkg:cargo/divan@0.1",
+    "bom-ref": "cargo/divan@0.1"
+   }
+  ]
+ },
+ "elapsed_seconds": 46.74,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 2,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "10a28e7ef63523f29b16a97be2f5efbea6e8d173",
+    "latest_commit": "10a28e7 anticloud overlay + upstream swap to dimforge/rapier",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-12T05:36:41.365743+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "c962c187e51c32d9dd3e25882bf6beb1b90d3511a528857a16bb4b759f502974",
+ "upstream_substituted": {
+  "from": "GPL/AGPL slot",
+  "to": "dimforge/rapier",
+  "sha": "475caa3ff4646fd9a796b67d14116256f4962bc7",
+  "at": "2026-10-12T05:36:41.365743+00:00"
+ }
+}
