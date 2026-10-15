@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "BULLET",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARTILLERY_MANUFACTURING\\BULLET\\UPSTREAM_CLONE",
   "git": {
-   "head": "475caa3ff4646fd9a796b67d14116256f4962bc7",
-   "url": "https://github.com/dimforge/rapier",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/flyerhzm/bullet",
+   "head": "fb5f796292432a44e8e9f7075d468305d5c4181c",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/dimforge/rapier"
   }
  },
  "metrics": {
